@@ -100,6 +100,10 @@ LLM = Large Language Model
     pip install openai duckduckgo-search
     ```
 
+    Install the gpt-4o model, otherwise, you will get this diagnostic on the next step, "raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'The model `gpt-4o` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}"
+
+
     Run the Assistant
 
     ```shell
